@@ -2,37 +2,31 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: Affiliation
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: "<a href='https://www.scalar-technologies.net' target='_blank'>Scalar♥</a>"
+      - title: Czech Technical University in Prague
+        entries:
+            - title: "<a href='https://www.fjfi.cvut.cz/en' target='_blank'>Faculty of Nuclear Sciences and Physical Engineering</a>"
+            - title: "<a href='https://fit.cvut.cz/en' target='_blank'>Faculty of Information Technology</a>"
 
-  - title: all posts
+  - title: Publications
     post_list:
       limit: 5
+      category: publication
       show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+      show_more_text: All Publications...
+      show_more_url: publication-archive.html
 
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+  - title: Downloads
+    entries:
+      - title: "<a href='https://kandaurovnet.github.io/Resources/Artem-Kandaurov.pdf' target='_blank'>Curriculum Vitae</a>"
+      - title: "<a href='https://kandaurovnet.github.io/Resources/key.pub' download>Public key</a>"
+      - title: "<a href='https://kandaurovnet.github.io/Resources/Voland.xccolortheme' download>Xcode profile</a>"
+      - title: "<a href='https://kandaurovnet.github.io/Resources/Voland.terminal' download>Terminal profile</a>"
 
-  - title: rss
-    url: feed.xml
-  
-  - title: another list
+  - title: Contacts
     entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+      - title: artem@kandaurov.net
+        url: mailto:artem@kandaurov.net
+      - title: "<a href='https://www.linkedin.com/in/kandaurovnet' target='_blank'>LinkedIn</a>"
